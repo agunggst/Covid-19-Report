@@ -1,0 +1,27 @@
+.main-page, .home-page{
+    text-align: center;
+    margin-bottom: 50px;
+    h3{
+        color: $color-font-dark;
+        font-size: xx-large;
+        font-weight: normal;
+    }
+
+    .input-filter{
+        margin-bottom: 30px;
+        margin-right: 10px;
+        background-color: $color-tertiery-dark;
+        padding: 8px 15px;
+        color: $color-font-secondary-dark;
+        border: 1px;
+    }
+
+    .button-filter{
+        background-color: $color-font-secondary-dark;
+        border-radius: 1px;
+        padding: 7px 15px;
+        border: 1px;
+        color: black;
+        cursor: pointer;
+    }
+}

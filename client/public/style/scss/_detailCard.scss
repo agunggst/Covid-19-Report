@@ -1,0 +1,45 @@
+.chart{
+    margin: 0 auto;
+    min-width: 300px;
+    width: 45%;
+    padding: 15px 30px;
+    margin-bottom: 20px;
+    background-color: $color-primary-dark;
+}
+
+.detail-card{
+    background-color: $color-primary-dark;
+    width: 47.2%;
+    min-width: 300px;
+    min-height: 80px;
+    max-height: 350px;
+    margin: 10px auto;
+    color: $color-font-dark;
+    text-align: center;
+    padding: 15px;
+    
+    ul{
+        list-style: none;
+        margin-top: 10px;
+        padding-left: 0;
+        display: flex;
+        justify-content: center;
+
+        li{
+            text-decoration: none;
+            margin: 10px 10px;
+        }
+
+        .CFR{
+            color: rgb(245, 89, 89);
+        }
+    }
+
+    table{
+        width: 80%;
+        text-align: center;
+        border: 1px $color-font-secondary-dark solid;
+        overflow-x: auto;
+        margin-bottom: 30px;
+    }
+}

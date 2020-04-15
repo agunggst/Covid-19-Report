@@ -1,0 +1,63 @@
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .card{
+        background-color: $color-primary-dark;
+        width: 500px;
+        min-width: 300px;
+        min-height: 80px;
+        margin: 10px 15px;
+        color: $color-font-dark;
+        text-align: center;
+        cursor: pointer;
+        // border: 1px $color-font-dark solid;
+
+        h4{
+            margin: 1rem 0 0 0;
+            font-size: x-large;
+            font-weight: normal;
+        }
+
+        ul{
+            list-style: none;
+            margin-top: 10px;
+            padding-left: 0;
+            display: flex;
+            justify-content: center;
+
+            li{
+                // display: inline;
+                text-decoration: none;
+                margin: 10px 10px;
+            }
+
+            .card-cases{
+                color: rgb(177, 177, 177) !important;
+            }
+
+            .card-deaths{
+                color: rgb(245, 89, 89);
+            }
+
+            .card-recovered{
+                color: rgb(0, 190, 0);
+            }
+        }
+
+        .addFav-btn{
+            border: 1px;
+            background-color: $color-font-secondary-dark;
+            padding: 5px 10px;
+            margin-bottom: 20px;
+            cursor: pointer;
+            color: black;
+            transition: 0.4s ease-in-out;
+        }
+
+        .addFav-btn:hover{
+            background-color: whitesmoke;
+        }
+    }
+}

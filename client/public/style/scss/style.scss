@@ -1,0 +1,85 @@
+$color-primary-dark: #20232a;
+$color-tertiery-dark: #33373f;
+$color-font-dark: whitesmoke;
+$color-font-secondary-dark: #61dafb;
+$color-background-dark: #282c34;
+// $color-card-bg-dark: #282c34;
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: $color-background-dark;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+        monospace;
+}
+
+@import './reactLogo';
+@import './header';
+@import './card';
+@import './mainPage';
+@import './footer';
+@import './detailCard';
+
+.fav-card{
+    display: flex;
+    background-color: $color-primary-dark;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 120px;
+    margin: 10px 20px;
+    color: $color-font-dark;
+
+    h4{
+        margin: 0px;
+        width: 10%;
+        text-align: left;
+        transition: .3s ease-in-out;
+        cursor: pointer;
+    }
+
+    h4:hover{
+        color: $color-font-secondary-dark;
+    }
+
+    ul{
+        list-style: none;
+        margin-top: 10px;
+        padding-left: 0;
+        width: 40%;
+        display: flex;
+        justify-content: space-between;
+
+        li{
+            // display: inline;
+            text-decoration: none;
+            margin: 0px 10px;
+        }
+
+        .card-cases{
+            color: rgb(177, 177, 177) !important;
+        }
+
+        .card-deaths{
+            color: rgb(245, 89, 89);
+        }
+
+        .card-recovered{
+            color: rgb(0, 190, 0);
+        }
+    }
+
+    .deleteFav-btn{
+        border: 1px;
+        color: black;
+        padding: 5px 10px;
+        background-color: $color-font-secondary-dark;
+        cursor: pointer;
+    }
+}

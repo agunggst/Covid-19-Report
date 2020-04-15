@@ -1,0 +1,30 @@
+.footer {
+    background-color: $color-tertiery-dark;
+    height: 150px;
+    position: absolute;
+    // position: fixed;
+    width: 100%;
+    bottom: 0px;
+    left: 0px;
+    margin-top: 5rem;
+
+    .footer-content {
+        font-size: 18px;
+        height: 100px;
+        text-align: center;
+        padding-top: 25px;
+
+        p {
+            color: whitesmoke;
+        }
+    }
+
+    .footer-bottom {
+        background-color: $color-primary-dark;
+        color: $color-font-secondary-dark;
+        height: 50px;
+        width: 100%;
+        text-align: center;
+        padding-top: 20px;
+    }
+}
